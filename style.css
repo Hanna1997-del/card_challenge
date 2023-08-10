@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    scroll-behavior: smooth;
+    border: none;
+}
+main {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    width: 100%;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.card {
+    min-width: 400px;
+    min-height: 100px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+    z-index: 1;
+  
+}
+.image-1 {
+    margin-top: 20px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+.img-1:hover {
+  filter: brightness(4);
+ 
+   z-index: 2;
+  
+
+
+}
+
+.img-2 {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+ bottom: 100px;
+  
+   
+/* opacity: 0; */
+
+
+ 
+ 
+ 
+}
+.img-2:hover {
+    z-index: 2;
+    /* opacity: 1; */
+   
+}
+
+.card h1 {
+    color: hsl(178, 100%, 50%) ;
+    margin-top: 2rem;
+    margin-right: 50px;
+   
+}
+.card p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 1rem;
+    max-width: 300px;
+    margin-right: 30px;
+}
+.detail {
+    display: flex;
+    margin-top: 2rem;
+    width: 400px;
+    justify-content: space-around;
+    margin-left: 60px;
+   
+    padding-bottom: 30px;
+}
+.Eth {
+   width: 200px;
+   display: flex;
+}
+.Eth img {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+   
+  
+}
+.Eth p {
+    padding-left: 10px;
+    color: hsl(178, 100%, 50%) ;
+   
+}
+.time {
+    width: 200px;
+    display: flex;
+}
+.time img {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+}
+.time p {
+    padding-left: 10px;
+}
+.artist {
+    width: 100%;
+    border-top: 1px solid  hsl(215, 51%, 70%);
+  padding-top: 1rem;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.artist img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid  hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.artist p {
+    padding-left: 30px;
+    cursor: pointer;
+}
+.artist span {
+    color:hsl(215, 32%, 27%) ;
+}
+.artist span:hover {
+    color: hsl(178, 100%, 50%) ;
+}
+.attribution {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+@media only screen and (max-width:375px) {
+    .card {
+        min-width: 30px;
+        min-height: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+       
+      
+    }
+    .image-1 {
+        width: 250px;
+        height: 200px;
+    }
+    .card h1 {
+        margin-top: 2rem;
+        margin-right: 30px;
+        font-size: 25px;
+       
+    } 
+    .card p {
+       
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 1rem;
+        max-width: 250px;
+        margin-right: 15px;
+    }
+    .Eth {
+        width: 100px;
+        display: flex;
+     }
+     .Eth img {
+        width: 10px;
+        height: 10px;
+        margin-top: 17px;
+       
+      
+    }
+    .time img {
+        width: 10px;
+        height: 10px;
+        margin-top: 17px;
+    }
+    .detail {
+       
+       
+         margin-top: 1rem;
+       
+        margin-left: 110px;
+       
+       
+    }
+    .artist img {
+        width: 30px;
+        height: 30px;
+        border: 1px solid  hsl(0, 0%, 100%);
+        border-radius: 50%;
+    }
+    .artist p {
+        padding-left: 30px;
+        margin-bottom: 10px;
+        
+    }
+    .img-2 {
+        width: 40px;
+    }
+   
+   
+}
